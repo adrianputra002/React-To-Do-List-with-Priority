@@ -22,7 +22,7 @@ const Add = ({
     <>
       {openNotificationValidation === true ? (
         <Alert variant="warning" classname="mt-2  ">
-          To do list and priority length must be more than 3  characters!
+          To do list and priority length must be more than 3 characters!
         </Alert>
       ) : (
         ""
